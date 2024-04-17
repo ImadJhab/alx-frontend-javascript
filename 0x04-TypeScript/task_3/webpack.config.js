@@ -20,10 +20,6 @@ module.exports = {
   resolve: {
     extensions: [".tsx", ".ts", ".js"]
   },
-  optimization: {
-    minimize: false
-  },
-  mode: 'development',
   devServer: {
     contentBase: "./dist"
   },
